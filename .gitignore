@@ -1,0 +1,14 @@
+# Obsidian application state, plugins, and locally stored credentials.
+.obsidian/
+
+# Operating-system metadata and temporary Word lock files.
+.DS_Store
+Thumbs.db
+~$*.docx
+
+# Local secrets, if added later.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
